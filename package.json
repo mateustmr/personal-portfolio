@@ -6,7 +6,7 @@
   "scripts": {
   "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
   "build": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --minify"
-}
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
