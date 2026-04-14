@@ -1,0 +1,21 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
+    "dev": "npx webpack ./main.js --watch",
+    "build": "npx webpack .main.js --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2",
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2"
+  }
+}
