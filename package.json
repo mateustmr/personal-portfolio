@@ -4,10 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
-    "dev": "npx webpack ./main.js --watch",
-    "build": "npx webpack .main.js --mode=production"
-  },
+  "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
+  "build": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --minify"
+}
   "keywords": [],
   "author": "",
   "license": "ISC",
